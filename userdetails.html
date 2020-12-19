@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <meta name= 'description' content='User Deatils'>
+       <meta name="keywords" content=" delivery details, payment details ">
+      <meta name="author" content="Melissa Kerins">
+  <title>Registration Form Lab 5</title>
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/custom.css" rel="stylesheet">    
+</head>
+<body>
+
+
+
+  <img id="logo" src="images/logo-black.jpg">
+     
+  
+        <!-- Navigation-->
+<nav  class="navbar navbar-expand-lg  navbar-dark">
+  
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon navbar-light "></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link navbar-brand" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+        <li class="nav-item">
+           <div class="btn-group">
+    <a type="button" class="btn btn-custom navbar-brand"  id="shop" href="shop.html">shop</a>
+    <button type="button" class="btn btn-custom navbar-brand dropdown-toggle dropdown-toggle-split" id="dropdownMenuReference" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-reference="parent">
+      <span class="sr-only">Toggle Dropdown</span>
+    </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuReference">
+      <a class="dropdown-item" href="shop.html">supplies</a>
+        <a class="dropdown-item" href="#">surfaces</a>
+  <a class="dropdown-item" href="#">paint</a>
+
+    </div>
+            </div>
+        </li>
+      
+           <li class="nav-item">
+        <a class="nav-link navbar-brand" href="contact.html">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link navbar-brand" href="aboutus.html">About Us</a>
+      </li>
+    </ul>
+ 
+      <li class="nav-item">
+           <div class="btn-group">
+    <a type="button" class="btn btn-custom navbar-brand"  id="loginlogout" href="login.html">Login</a>
+    <button type="button" class="btn btn-custom navbar-brand dropdown-toggle dropdown-toggle-split" id="dropdownMenuReference" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-reference="parent">
+      <span class="sr-only">Toggle Dropdown</span>
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuReference">
+      <a class="dropdown-item " href="userdetails.html">User Details</a>
+
+    </div>
+    </div>
+      </li>
+     <div class="btn-toolbar navbar-brand">
+        <a class="nav-item nav-link" href="checkout.html">
+        <button type="button" class="btn btn-secondary ml-2 btn-custom">
+          Checkout <span class="badge badge-light" id="checkout"></span>
+        </button>
+        </a>
+    </div> 
+   
+
+  
+  </div>
+  
+</nav>
+
+
+        <main id="user" class="container">     
+    
+    <h1>User Details</h1>
+    <div class="row">    
+        <div class="col-sm col-md-4"> 
+            <form name="userdetails" id="udetails" action="" method="get">
+                <fieldset>
+                    <legend>Delivery Details</legend>
+                    <div class="form-group">
+                        <label for="getFirstName">First name</label>
+                        <input type="text" class="form-control" id="getFirstName" name="firstname" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="getLastName">Last name</label> 
+                        <input type="text" class="form-control" id="getLastName" name="lastname" required>
+                    </div>    
+                    <div class="form-group">
+                        <label for="getDOB">Date of Birth</label> 
+                        <input type="date" class="form-control" id="getDOB" name="dob" required>
+                    </div>  
+                     <div class="form-group">
+                        <label for="getAddress1">Address 1</label> 
+                        <input type="text" class="form-control" id="getAddress1" name="address1" required>
+                    </div>   
+                    <div class="form-group">
+                        <label for="getAddress2">Address 2</label> 
+                        <input type="text" class="form-control" id="getAddress2" name="address2" required>
+                    </div> 
+                     <div class="form-group">
+                        <label for="getAddress3">Address 3</label> 
+                        <input type="text" class="form-control" id="getAddress3" name="address2" required>
+                    </div>  
+                      
+                </fieldset>    
+                
+                <fieldset>
+                    <legend>Delivery Details</legend>
+                      <div class="form-group">
+                        <label for="getName">Name on Card</label>
+                        <input type="text" class="form-control" id="getName" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="getDOB">Card Number</label> 
+                        <input type="name" class="form-control" id="getNo"  name="cardNo" required>
+                    </div>  
+                      <div class="form-group">
+                        <label for="getSecurityCode">CVC</label> 
+                        <input type="name" class="form-control" id="getCode" pattern="" name="securityCode" required>
+                    </div>  
+                   
+                </fieldset>    
+                <input id="userBtn" type='submit' class="btn btn-warning" value="Update My Details">
+            </form>
+
+
+        </div> 
+    </div>   
+    
+</main>
+    
+        <footer class="navbar-custom">
+            <div class="container pt-4">
+             <div class="row text-light text-center">
+                 
+                 <div class="col-md">
+                 <hr class="bg-light">
+                 <h5>Contact</h5>
+                 <hr class="bg-light">
+                 <p>086-123-4567</p>
+                 <p>email@myemail.com</p>
+                     
+                 </div>
+                  
+            </div>
+            </div>
+            
+        
+            <p>&copy; ArtZone.com</p>
+        
+        </footer>
+        
+    <script src="js/jquery-min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script> 
+    <script src="custom-js/custom.js"></script>   
+    
+</body>
+</html>
+
+
+
