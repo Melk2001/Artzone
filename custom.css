@@ -1,0 +1,227 @@
+body{
+    font-family: Georgia;
+}
+
+body #logo
+{
+    width: 10%;
+  margin-left: 52em;
+}
+
+.navbar-custom
+{
+    background-color: #000000;
+}
+
+.btn-custom
+{
+    background-color: #000000; 
+}
+
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgba(255,255,255,.8);
+}
+
+
+
+.btn-warning
+{
+    background-color: white;
+    border-color: #ffb100;
+    text-decoration-color: black;
+}
+
+
+#image {
+    
+    width: 100%;
+}
+#filter{
+    float: left;
+    margin: 2em;
+    height: 10em;
+}
+
+#filter a
+{
+  color: black;
+  column-count: 2;
+}
+#deck
+{
+    padding: 1em;
+    margin: auto;
+    width: 100%;
+}
+
+.navbar-toggler
+{
+  background-color:black;
+
+}
+
+
+.navbar-dark{
+     background-color: black;
+     
+}
+
+#login{
+    background-color: #e8e8e8;
+    margin-top: 80px;
+    width: 25%;
+}
+
+#login h1
+{
+    font-size: 1.5em;
+    margin-left: 7.5em;
+    font-family: sans-serif;
+}
+
+#login div {
+    
+    margin: auto;
+}
+
+#user div
+{
+    margin: auto;
+}
+
+#user h1
+{
+    padding: 1em;
+    font-size: 5m;
+    margin-left: 9.5em;
+    font-family: sans-serif;
+}
+
+#userBtn
+{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    
+}
+
+@media (max-width: 576px) {
+    
+  body #logo
+    {
+        display: block;
+       margin: auto;
+     height: 3em;
+        width: 8em;
+    }
+    
+    #deck{
+     
+        padding: 1em;
+            width: 40%;
+        height: 10%;
+    } 
+    .jumbotron{
+        
+        background-color: rgba(255, 177, 0, 0.76);
+    }
+    
+    .jumbotron h1
+    {
+        font-size: 2.5em;
+        text-align: center;
+    }
+    
+    .card-deck
+    {
+        width: 50%;
+       margin: auto;
+    }
+    
+    #slides img
+{
+   width:100%;
+height: 300px;
+
+}
+       .card-deck
+    {
+        width: 100%;
+       margin: auto;
+    } 
+    .display-2
+    {
+        font-size: 2em;
+    }
+}
+
+@media (min-width:577) and (max-width: 768px) {
+  
+   #deck {
+     
+         padding: 1em;
+       width: 60%;
+        height: 50%;
+    }  
+      .jumbotron{
+        
+        background-color: #3c3c3c;
+    }
+      .jumbotron h1
+    {
+        color: white;
+        font-size: 2.5em;
+        text-align: center;
+    }
+    
+    
+}
+
+@media (min-width:769px) and (max-width: 960px) {
+  
+  #deck{
+         padding: 1em;
+       width: 60%;
+        height: 50%;
+        
+    } 
+    
+    
+    
+     .jumbotron h1
+    {
+        font-size: 2.5em;
+        text-align: center;
+    }
+    
+    .card-deck
+    {
+        width: 50%;
+       
+    }
+    
+    
+   
+     #image
+{
+   width:100%;
+   height: 300px;
+
+}
+}
+
+#about{
+    padding: 1em;
+    margin-top: 5em;
+    margin-bottom: 10em;
+    background-color: #fddd94;
+
+}
+
+#about h2{
+    margin: auto;
+}
+
+
+  
