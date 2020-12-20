@@ -135,7 +135,7 @@ body #logo
     
     .card-deck
     {
-        width: 50%;
+        width: 25%;
        margin: auto;
     }
     
@@ -147,7 +147,7 @@ height: 300px;
 }
        .card-deck
     {
-        width: 100%;
+        width: 50%;
        margin: auto;
     } 
     .display-2
